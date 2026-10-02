@@ -1,3 +1,13 @@
 .DS_Store
 .build/
 **/xcuserdata/
+build/
+DerivedData/
+dist/
+*.app/
+*.dSYM/
+*.xcarchive/
+*.ipa
+*.dmg
+*.zip
+*.log
