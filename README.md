@@ -20,7 +20,7 @@ brew install --cask mitrazapine/hotkey-inspector/hotkey-inspector
 open /Applications/HotkeyInspector.app
 ```
 
-Установка требует полного Xcode, одних Command Line Tools недостаточно. Homebrew собирает приложение локально и устанавливает его в `/Applications`. Обновление: `brew upgrade --cask --greedy hotkey-inspector`.
+Homebrew собирает приложение локально и устанавливает его в `/Applications`. Обновление: `brew upgrade --cask --greedy hotkey-inspector`.
 
 ## Разработка
 
@@ -31,4 +31,3 @@ bash script/build_and_run.sh
 sh Tests/run.sh
 ```
 
-В Git хранятся исходники, проект Xcode, ресурсы, тесты и сценарии сборки. Готовые приложения и промежуточные файлы исключены через `.gitignore`.
