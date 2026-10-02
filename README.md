@@ -27,7 +27,7 @@ hotkey-inspector
 Откройте `HotkeyInspector/HotkeyInspector.xcodeproj` в Xcode и нажмите ⌘R либо выполните:
 
 ```sh
-./script/build_and_run.sh
+bash script/build_and_run.sh
 sh Tests/run.sh
 ```
 
