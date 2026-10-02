@@ -7,7 +7,7 @@ cask "hotkey-inspector" do
   desc "Inspect application shortcuts and configured macOS hotkeys"
   homepage "https://github.com/mitrazapine/HotkeyInspector"
 
-  depends_on macos: ">= :golden_gate"
+  depends_on macos: :golden_gate
 
   installer script: {
     executable: "/bin/bash",
