@@ -11,3 +11,12 @@ dist/
 *.dmg
 *.zip
 *.log
+
+# Keep development and installation files out of this source-only repository.
+*.xcodeproj/
+*.xcworkspace/
+/script/
+/Tests/
+/test/
+/Casks/
+/Formula/
