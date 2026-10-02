@@ -16,11 +16,11 @@
 
 ```sh
 brew tap mitrazapine/hotkey-inspector https://github.com/mitrazapine/HotkeyInspector.git
-brew install --HEAD mitrazapine/hotkey-inspector/hotkey-inspector
-hotkey-inspector
+brew install --cask mitrazapine/hotkey-inspector/hotkey-inspector
+open /Applications/HotkeyInspector.app
 ```
 
-Установка требует полного Xcode, одних Command Line Tools недостаточно. Приложение хранится в каталоге Homebrew; команда `hotkey-inspector` открывает его. Обновление: `brew upgrade --fetch-HEAD hotkey-inspector`.
+Установка требует полного Xcode, одних Command Line Tools недостаточно. Homebrew собирает приложение локально и устанавливает его в `/Applications`. Обновление: `brew upgrade --cask --greedy hotkey-inspector`.
 
 ## Разработка
 
